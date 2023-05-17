@@ -1,0 +1,8 @@
+{
+    "plugins": ["prettier"],
+    "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+    "rules": {
+        // Your rules go here
+        "prettier/prettier": ["error", { "endOfLine": "auto" }]
+    }
+}
