@@ -37,6 +37,11 @@ const Container = styled.div`
                     color: #ffffff;
                 }
             }
+
+            @media only screen and (min-width: 420px) {
+                display: flex;
+                gap: 1rem;
+            }
         }
     }
     height: 654px;
@@ -48,7 +53,7 @@ const Logo = styled.img`
 const Background = styled.img`
     top: 0;
     position: absolute;
-    height: 100%;
+    width: 100%;
 `;
 const Footer = () => {
     return (
