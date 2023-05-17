@@ -51,7 +51,7 @@ const VALUES = [
 ];
 const CoreValues = () => {
     return (
-        <Container>
+        <Container id="values">
             <div>
                 <h1>Our Core Values</h1>
                 <p>

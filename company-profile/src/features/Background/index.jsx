@@ -98,7 +98,7 @@ const Background = () => {
     const prevContent = () => contentIdx > 0 && setContentIdx(contentIdx - 1);
     const nextContent = () => contentIdx < maxLength - 1 && setContentIdx(contentIdx + 1);
     return (
-        <Container>
+        <Container id="background">
             <div className="wrapper">
                 <BackgroundContent {...CONTENTS[contentIdx]} />
             </div>
