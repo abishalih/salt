@@ -100,9 +100,7 @@ const Background = () => {
     return (
         <Container>
             <div className="wrapper">
-                {CONTENTS.map((contentProps, key) => (
-                    <BackgroundContent key={key} {...contentProps} />
-                ))}
+                <BackgroundContent {...CONTENTS[contentIdx]} />
             </div>
 
             <Pagination>
